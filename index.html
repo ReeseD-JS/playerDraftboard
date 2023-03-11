@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexstyle.css">
+    <title>Reese's Can't Lose Draftboard</title>
+</head>
+<body>
+
+    <div class="filterArea">
+        <!-- <input id="idPPG" type="button" value="PPG"/>
+        <input id="idTEAM" type="button" value="TEAM" onclick="orderPPG();"/> -->
+        <button type="button" id="idPPG">PPG</button>
+        <button type="button" id="idTEAM">TEAM</button>
+        <button type="button" id="idRTR">Reese's Team Rank</button>
+    </div>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Team</th>
+            <th>POS</th>
+            <th>GP</th>
+            <th>MPG</th>
+            <th>PPG</th>
+            <th>FG%</th>
+            <th>FT%</th>
+            <th>3P%</th>
+            <th>3PA</th>
+            <th>RTR</th>
+        </tr>
+        <tr id="playerData">
+        </tr>
+    </table>
+
+
+
+    <script src="PPGindex.js"></script>
+    <script src="TEAMindex.js"></script>
+    <script src="RTRindex.js"></script>
+</body>
+</html>
